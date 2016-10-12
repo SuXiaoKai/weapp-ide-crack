@@ -14,9 +14,9 @@ sleep 1
 cp ${asdebug_path}/asdebug.js{,.backup}
 echo "backup asdebug.js ......."
 cp ${projectStores_path}/projectStores.js{,.backup}
-echo "backup asdebug.js ......."
+echo "backup projectStores.js ......."
 cp ${createstep_path}/createstep.js{,.backup}
-echo "backup asdebug.js ......."
+echo "backup createstep.js ......."
 echo "Backup successful!"
 
 echo "Start crack..."
@@ -24,7 +24,7 @@ sleep 1
 cp ./asdebug.js ${asdebug_path}/
 echo "replace asdebug.js ......."
 cp ./projectStores.js ${projectStores_path}
-echo "replace projectStores ......."
+echo "replace projectStores.js ......."
 cp ./createstep.js ${createstep_path}
 echo "replace createstep.js ......."
 sleep 1
